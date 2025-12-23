@@ -1,12 +1,10 @@
-# Saúde & Performance — v7.1
+# Saúde & Performance — v11.2
 
-Inclui:
-- Inserção de dados (pressão, sono, treino)
-- Score diário + sugestão de treino
-- Alertas visuais
-- Dashboards
-- Exportação CSV
+Agora inclui a **balança/bioimpedância** em tudo:
+- Inserção manual (peso, %gordura, %músculo, %água, visceral, BMR)
+- Dashboard
+- Forecast (>=30 dias) para: peso, %gordura, %músculo, %água (se houver dados)
+- Exportação CSV inclui body.csv
 
-Rodar:
-APP_USER / APP_PASSWORD
-streamlit run app.py
+Forecast:
+- Tenta Prophet; se falhar, usa regressão linear como fallback.
