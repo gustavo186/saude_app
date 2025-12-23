@@ -1,13 +1,12 @@
-# Saúde & Performance — v7 (Opção A)
+# Saúde & Performance — v7.1
 
 Inclui:
-- Score diário (0–100)
-- Sugestão automática de treino
+- Inserção de dados (pressão, sono, treino)
+- Score diário + sugestão de treino
 - Alertas visuais
-- Dashboards: Pressão, Sono, Treino
+- Dashboards
+- Exportação CSV
 
-## Como rodar
-1. Defina variáveis:
-   APP_USER=seu_usuario
-   APP_PASSWORD=sua_senha
-2. streamlit run app.py
+Rodar:
+APP_USER / APP_PASSWORD
+streamlit run app.py
